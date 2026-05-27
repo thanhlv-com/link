@@ -45,5 +45,14 @@ export const resources: Resource[] = [
     categoryId: 'tools',
     tags: ['YAML', 'Developer', 'Format'],
     iconName: 'Code'
+  },
+  {
+    id: '11',
+    title: 'Hash Tools',
+    description: 'Generate hash values from text or files using popular and widely used hashing algorithms.',
+    url: 'https://hash-tools.thanhlv.com',
+    categoryId: 'tools',
+    tags: ['Hash', 'Developer', 'Security'],
+    iconName: 'Fingerprint'
   }
 ];

@@ -100,6 +100,7 @@ The following links are currently defined in `src/data.ts`:
 |------------|--------------------------------|---------------------------------------------------------------------------------------------------|
 | JSON Tools | https://json-tools.thanhlv.com | A fast and handy online JSON formatting, validation, and processing tool for developers.          |
 | YAML Tools | https://yaml-tools.thanhlv.com | A website that supports parsing, converting, and manipulating YAML format easily and intuitively. |
+| Hash Tools | https://hash-tools.thanhlv.com | Generate hash values from text or files using popular and widely used hashing algorithms.          |
 
 ## Deployment
 
