@@ -102,6 +102,7 @@ The following links are currently defined in `src/data.ts`:
 | YAML Tools | https://yaml-tools.thanhlv.com  | A website that supports parsing, converting, and manipulating YAML format easily and intuitively. |
 | Hash Tools | https://hash-tools.thanhlv.com  | Generate hash values from text or files using popular and widely used hashing algorithms.         |
 | UUID Tools | https://uuid-tools.thanhlv.com/ | Generate, validate, and decode UUID values quickly for development workflows.                     |
+| Encrypt Tools | https://encrypt-tools.thanhlv.com | Encrypt and decrypt text quickly with practical utilities for developers.                         |
 
 ## Deployment
 
