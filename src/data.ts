@@ -63,5 +63,14 @@ export const resources: Resource[] = [
     categoryId: 'tools',
     tags: ['UUID', 'Developer', 'Utility'],
     iconName: 'KeyRound'
+  },
+  {
+    id: '13',
+    title: 'Encrypt Tools',
+    description: 'Encrypt and decrypt text quickly with practical utilities for developers.',
+    url: 'https://encrypt-tools.thanhlv.com',
+    categoryId: 'tools',
+    tags: ['Encryption', 'Developer', 'Security'],
+    iconName: 'Lock'
   }
 ];
