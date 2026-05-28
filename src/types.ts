@@ -12,5 +12,6 @@ export interface Resource {
   url: string;
   categoryId: string;
   iconName?: string;
+  features: string[];
   tags: string[];
 }

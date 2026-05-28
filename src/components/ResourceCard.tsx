@@ -40,6 +40,21 @@ export const ResourceCard: React.FC<ResourceCardProps> = ({ resource }) => {
         <p className="text-sm text-slate-600 dark:text-slate-400 line-clamp-3 leading-relaxed mb-4 transition-colors">
           {resource.description}
         </p>
+
+        {resource.features.length > 0 && (
+          <div className="mb-4">
+            <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-2 transition-colors">
+              Key Features
+            </p>
+            <ul className="space-y-1.5">
+              {resource.features.slice(0, 4).map((feature) => (
+                <li key={feature} className="text-sm text-slate-700 dark:text-slate-300 leading-relaxed transition-colors">
+                  • {feature}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
 
       <div className="flex flex-wrap gap-2 mt-auto pt-4 border-t border-slate-100 dark:border-slate-800/50 transition-colors">

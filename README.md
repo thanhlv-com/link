@@ -5,7 +5,7 @@ LinkHub is a curated directory of useful tools and resources for developers, bui
 ## Features
 
 - Categorized resources (Tools, Mobile Apps, Websites, Learning Resources)
-- Real-time search by title, description, and tags
+- Real-time search by title, description, features, and tags
 - Light, Dark, and System theme support
 - Responsive UI for desktop, tablet, and mobile
 - Basic SEO support with dynamic page titles by category/search query
@@ -81,6 +81,7 @@ export const resources = [
         description: 'Short description',
         url: 'https://example.com',
         categoryId: 'tools',
+        features: ['Feature 1', 'Feature 2'],
         tags: ['Developer', 'Productivity'],
         iconName: 'Braces'
     }
@@ -90,6 +91,7 @@ export const resources = [
 Notes:
 
 - `resource.categoryId` must match an existing `categories[].id`
+- `resource.features` is used for both UI display and search
 - `icon` and `iconName` must be valid icon names from `lucide-react`
 
 ## Current Links

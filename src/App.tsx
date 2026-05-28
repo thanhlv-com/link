@@ -24,6 +24,7 @@ export default function App() {
         r => 
           r.title.toLowerCase().includes(lowerQuery) || 
           r.description.toLowerCase().includes(lowerQuery) ||
+          r.features.some(f => f.toLowerCase().includes(lowerQuery)) ||
           r.tags.some(t => t.toLowerCase().includes(lowerQuery))
       );
     }

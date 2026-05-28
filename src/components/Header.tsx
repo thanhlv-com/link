@@ -28,7 +28,7 @@ export const Header: React.FC<HeaderProps> = ({ searchQuery, setSearchQuery }) =
             <input
               type="text"
               className="block w-full rounded-xl border-0 py-2.5 pl-10 pr-4 ring-1 ring-inset ring-slate-200 dark:ring-slate-700 placeholder:text-slate-400 dark:placeholder:text-slate-500 focus:ring-2 focus:ring-inset focus:ring-blue-600 dark:focus:ring-blue-500 sm:text-sm sm:leading-6 bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 transition-all hover:bg-slate-100 dark:hover:bg-slate-800 focus:bg-white dark:focus:bg-slate-950"
-              placeholder="Search applications, tools..."
+              placeholder="Search applications, tools, features..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />

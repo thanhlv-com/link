@@ -5,7 +5,7 @@ LinkHub is a curated directory of the best developer tools, applications, websit
 ## Features
 
 - **Categorized Directory:** Resources are organized into logical categories (Tools, Mobile Apps, Websites, Learning Resources).
-- **Real-time Search:** Instantly filter directories by keyword across titles, descriptions, and tags.
+- **Real-time Search:** Instantly filter directories by keyword across titles, descriptions, features, and tags.
 - **Theme Support:** Built-in Light, Dark, and System theme toggling.
 - **SEO Optimized:** Semantic HTML, structured data (JSON-LD), and Open Graph/Twitter meta tags configured for `https://link.thanhlv.com/`. Dynamic document titles based on active category or search query.
 - **Responsive Design:** Optimized for mobile, tablet, and desktop viewing with an off-canvas/adaptive sidebar logic.
@@ -57,6 +57,7 @@ export const resources: Resource[] = [
     description: 'A brief description of what the tool does.',
     url: 'https://example.com',
     categoryId: 'tools', // Must match an existing category ID
+    features: ['Feature 1', 'Feature 2'],
     tags: ['Tag 1', 'Tag 2'],
     iconName: 'Link' // A valid Lucide Icon name
   }

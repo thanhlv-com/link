@@ -34,6 +34,12 @@ export const resources: Resource[] = [
     description: 'A fast and handy online JSON formatting, validation, and processing tool for developers.',
     url: 'https://json-tools.thanhlv.com',
     categoryId: 'tools',
+    features: [
+      'Format and beautify JSON',
+      'Validate JSON syntax',
+      'Minify JSON payload',
+      'Tree view for nested objects'
+    ],
     tags: ['JSON', 'Developer', 'Format'],
     iconName: 'Braces'
   },
@@ -43,6 +49,12 @@ export const resources: Resource[] = [
     description: 'A website that supports parsing, converting, and manipulating YAML format easily and intuitively.',
     url: 'https://yaml-tools.thanhlv.com',
     categoryId: 'tools',
+    features: [
+      'Parse and validate YAML',
+      'Convert YAML to JSON',
+      'Convert JSON to YAML',
+      'Format YAML with clean indentation'
+    ],
     tags: ['YAML', 'Developer', 'Format'],
     iconName: 'Code'
   },
@@ -52,6 +64,12 @@ export const resources: Resource[] = [
     description: 'Generate hash values from text or files using popular and widely used hashing algorithms.',
     url: 'https://hash-tools.thanhlv.com',
     categoryId: 'tools',
+    features: [
+      'Generate hashes from plain text',
+      'Generate hashes from files',
+      'Support MD5, SHA-1, SHA-256, and SHA-512',
+      'Verify hash integrity quickly'
+    ],
     tags: ['Hash', 'Developer', 'Security'],
     iconName: 'Fingerprint'
   },
@@ -61,6 +79,12 @@ export const resources: Resource[] = [
     description: 'Generate, validate, and decode UUID values quickly for development workflows.',
     url: 'https://uuid-tools.thanhlv.com/',
     categoryId: 'tools',
+    features: [
+      'Generate UUID values',
+      'Validate UUID format',
+      'Decode UUID components',
+      'Bulk UUID generation support'
+    ],
     tags: ['UUID', 'Developer', 'Utility'],
     iconName: 'KeyRound'
   },
@@ -70,6 +94,12 @@ export const resources: Resource[] = [
     description: 'Encrypt and decrypt text quickly with practical utilities for developers.',
     url: 'https://encrypt-tools.thanhlv.com',
     categoryId: 'tools',
+    features: [
+      'Encrypt text with practical methods',
+      'Decrypt ciphertext instantly',
+      'Base64 encode and decode',
+      'Copy-ready result output'
+    ],
     tags: ['Encryption', 'Developer', 'Security'],
     iconName: 'Lock'
   }
