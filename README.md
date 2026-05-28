@@ -96,11 +96,12 @@ Notes:
 
 The following links are currently defined in `src/data.ts`:
 
-| Name       | URL                            | Description                                                                                       |
-|------------|--------------------------------|---------------------------------------------------------------------------------------------------|
-| JSON Tools | https://json-tools.thanhlv.com | A fast and handy online JSON formatting, validation, and processing tool for developers.          |
-| YAML Tools | https://yaml-tools.thanhlv.com | A website that supports parsing, converting, and manipulating YAML format easily and intuitively. |
-| Hash Tools | https://hash-tools.thanhlv.com | Generate hash values from text or files using popular and widely used hashing algorithms.          |
+| Name       | URL                             | Description                                                                                       |
+|------------|---------------------------------|---------------------------------------------------------------------------------------------------|
+| JSON Tools | https://json-tools.thanhlv.com  | A fast and handy online JSON formatting, validation, and processing tool for developers.          |
+| YAML Tools | https://yaml-tools.thanhlv.com  | A website that supports parsing, converting, and manipulating YAML format easily and intuitively. |
+| Hash Tools | https://hash-tools.thanhlv.com  | Generate hash values from text or files using popular and widely used hashing algorithms.         |
+| UUID Tools | https://uuid-tools.thanhlv.com/ | Generate, validate, and decode UUID values quickly for development workflows.                     |
 
 ## Deployment
 

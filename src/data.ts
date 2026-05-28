@@ -54,5 +54,14 @@ export const resources: Resource[] = [
     categoryId: 'tools',
     tags: ['Hash', 'Developer', 'Security'],
     iconName: 'Fingerprint'
+  },
+  {
+    id: '12',
+    title: 'UUID Tools',
+    description: 'Generate, validate, and decode UUID values quickly for development workflows.',
+    url: 'https://uuid-tools.thanhlv.com/',
+    categoryId: 'tools',
+    tags: ['UUID', 'Developer', 'Utility'],
+    iconName: 'KeyRound'
   }
 ];
