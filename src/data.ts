@@ -35,10 +35,11 @@ export const resources: Resource[] = [
     url: 'https://json-tools.thanhlv.com',
     categoryId: 'tools',
     features: [
-      'Format and beautify JSON',
-      'Validate JSON syntax',
-      'Minify JSON payload',
-      'Tree view for nested objects'
+      'JSON Editor with Format, Minify, and Validate actions',
+      'JSON Diff and Merge workflows',
+      'Path Query and Pipeline transformations',
+      'Convert, Tree, CSV, Escape, and Patch utilities',
+      'Schema Generate, Schema Mock, and Schema Check modules'
     ],
     tags: ['JSON', 'Developer', 'Format'],
     iconName: 'Braces'
@@ -50,10 +51,11 @@ export const resources: Resource[] = [
     url: 'https://yaml-tools.thanhlv.com',
     categoryId: 'tools',
     features: [
-      'Parse and validate YAML',
-      'Convert YAML to JSON',
-      'Convert JSON to YAML',
-      'Format YAML with clean indentation'
+      'YAML Editor with Format and Validate actions',
+      'YAML Diff and Merge workflows',
+      'YAMLPath Query and Pipeline transformations',
+      'Convert, Tree, CSV, Escape, and Patch utilities',
+      'Schema Generate, Schema Mock, and Schema Check modules'
     ],
     tags: ['YAML', 'Developer', 'Format'],
     iconName: 'Code'
@@ -65,10 +67,10 @@ export const resources: Resource[] = [
     url: 'https://hash-tools.thanhlv.com',
     categoryId: 'tools',
     features: [
-      'Generate hashes from plain text',
-      'Generate hashes from files',
-      'Support MD5, SHA-1, SHA-256, and SHA-512',
-      'Verify hash integrity quickly'
+      'Hash both Text Input and File Input',
+      'Support MD5, SHA-2, SHA-3, SHAKE, SM3, GOST, RIPEMD-160, and BLAKE3',
+      'Multiple digest encodings: Hex, Base64, Base91, Base85, Base62, Base58, Base8, and Base2',
+      'Runs 100% client-side in the browser'
     ],
     tags: ['Hash', 'Developer', 'Security'],
     iconName: 'Fingerprint'
@@ -80,10 +82,11 @@ export const resources: Resource[] = [
     url: 'https://uuid-tools.thanhlv.com/',
     categoryId: 'tools',
     features: [
-      'Generate UUID values',
-      'Validate UUID format',
-      'Decode UUID components',
-      'Bulk UUID generation support'
+      'Generator and Decoder modes',
+      'Generate UUID v1, v3, v4, v5, v6, v7, ULID, NanoID, CUID2, Snowflake, NIL, and MAX',
+      'Bulk generation with quantity control',
+      'Output formatting options: hyphens, uppercase, and braces',
+      'Export output as TXT or CSV and Copy All'
     ],
     tags: ['UUID', 'Developer', 'Utility'],
     iconName: 'KeyRound'
@@ -95,10 +98,11 @@ export const resources: Resource[] = [
     url: 'https://encrypt-tools.thanhlv.com',
     categoryId: 'tools',
     features: [
-      'Encrypt text with practical methods',
-      'Decrypt ciphertext instantly',
-      'Base64 encode and decode',
-      'Copy-ready result output'
+      'AES Encrypt and AES Decrypt tools',
+      'DES and Triple DES encrypt/decrypt tools',
+      'RC4 encrypt/decrypt tools',
+      'Key/passphrase-based input with quick swap between encrypt and decrypt',
+      'Browser-based cryptography flow without backend dependency'
     ],
     tags: ['Encryption', 'Developer', 'Security'],
     iconName: 'Lock'
