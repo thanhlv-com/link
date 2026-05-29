@@ -106,5 +106,20 @@ export const resources: Resource[] = [
     ],
     tags: ['Encryption', 'Developer', 'Security'],
     iconName: 'Lock'
+  },
+  {
+    id: '14',
+    title: 'Calc Money VN Tools',
+    description: 'Công cụ hỗ trợ đếm tiền nhanh và chính xác bằng tiếng Việt.',
+    url: 'https://calc-money-vn-tools.thanhlv.com',
+    categoryId: 'tools',
+    features: [
+      'Đếm tiền theo từng mệnh giá tiền Việt Nam',
+      'Tự động cộng tổng số tiền theo số lượng từng mệnh giá',
+      'Hiển thị kết quả rõ ràng, dễ kiểm tra đối chiếu',
+      'Thao tác nhanh, phù hợp cho nhu cầu kiểm đếm hằng ngày'
+    ],
+    tags: ['Đếm tiền', 'Tiền Việt', 'Tiếng Việt'],
+    iconName: 'Calculator'
   }
 ];
